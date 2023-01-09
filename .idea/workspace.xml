@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassAndObject/Definition1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassAndObject/Definition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassAndObject/Definition3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enumeration/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Enumeration/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClassAndObject/Definition2Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2K4pcVfkP5Zfz9Inmq6xlcUiRpF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ClassAndObject" />
+      <recent name="com.knovos.ClassAndObject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Definition1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition1" />
+      <module name="KnovosTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Definition3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition3" />
+      <module name="KnovosTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Definition4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition4" />
+      <module name="KnovosTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerClass.Definition2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition2" />
+      <module name="KnovosTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enumeration.Main" />
+      <module name="KnovosTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Enumeration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Definition4" />
+        <item itemvalue="Application.Definition3" />
+        <item itemvalue="Application.InnerClass.Definition2" />
+        <item itemvalue="Application.Definition1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="" />
+      <created>1673243821548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673243821548</updated>
+    </task>
+    <servers />
+  </component>
+</project>
