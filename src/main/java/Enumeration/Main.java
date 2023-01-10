@@ -1,9 +1,5 @@
 package Enumeration;
 
-
-
-
-
 public class Main {
 
     enum Day {
@@ -33,10 +29,6 @@ public class Main {
     public static void main(String[] args) {
 
         Day day = Day.FRIDAY;
-
-//        System.out.println(Day.MONDAY.getDayOfWeek());
-
-
 
 
         switch(day)

@@ -4,24 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassAndObject/Definition1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassAndObject/Definition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ClassAndObject/Definition3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enumeration/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enumeration/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClass/Definition4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassAndObject/Definition2Test.java" afterDir="false" />
+    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 9/1/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Bat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Single/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Single/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Single/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Loops/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TernaryOperator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enumeration/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enumeration/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,15 +75,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,14 +93,17 @@
       <recent name="ClassAndObject" />
       <recent name="com.knovos.ClassAndObject" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Abstraction.UsingInterface" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Definition1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition1" />
+  <component name="RunManager" selected="Application.Arrays.Main">
+    <configuration name="Abstraction.UsingInterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstraction.UsingInterface.Main" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClass.*" />
+          <option name="PATTERN" value="Abstraction.UsingInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Definition3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition3" />
+    <configuration name="Arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClass.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Definition4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition4" />
+    <configuration name="Inheritance.Multiple.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Multiple.Main" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClass.*" />
+          <option name="PATTERN" value="Inheritance.Multiple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClass.Definition2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Definition2" />
+    <configuration name="Loops.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.Main" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InnerClass.*" />
+          <option name="PATTERN" value="Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Enumeration.Main" />
+    <configuration name="TernaryOperator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TernaryOperator.Main" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Enumeration.*" />
+          <option name="PATTERN" value="TernaryOperator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Definition4" />
-        <item itemvalue="Application.Definition3" />
-        <item itemvalue="Application.InnerClass.Definition2" />
-        <item itemvalue="Application.Definition1" />
+        <item itemvalue="Application.Arrays.Main" />
+        <item itemvalue="Application.TernaryOperator.Main" />
+        <item itemvalue="Application.Loops.Main" />
+        <item itemvalue="Application.Abstraction.UsingInterface.Main" />
+        <item itemvalue="Application.Inheritance.Multiple.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +182,29 @@
       <option name="presentableId" value="Default" />
       <updated>1673243821548</updated>
     </task>
+    <task id="LOCAL-00001" summary="Work done on 9/1/23">
+      <created>1673258689388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673258689388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Work done on 9/1/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work done on 9/1/23" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Inheritance/Single/SmartPhone.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
