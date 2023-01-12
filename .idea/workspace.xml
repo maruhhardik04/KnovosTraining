@@ -5,42 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 9/1/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CallByValueAndReference/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CallByValueAndReference/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHandling/MultipleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegularExpressions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegularExpressions/Re.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHandling/MultipleExceptionUsingThrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExceptionHandling/UsingThrowAndFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/IOStreams/FileInputAndOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/IOStreams/InputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/RecursivelyListDirectoryAndFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/AbstractClass/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/AbstractClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/AbstractClass/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/AbstractClass/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/AbstractClass/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/UsingInterface/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/UsingInterface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/UsingInterface/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/UsingInterface/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Abstraction/UsingInterface/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encapsulation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Encapsulation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Encapsulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Hierarchical/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Hierarchical/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Hierarchical/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Hierarchical/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Hierarchical/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multilevel/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multilevel/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multilevel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multilevel/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multilevel/SmartPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multiple/Bat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multiple/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multiple/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Multiple/Mammal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Multiple/Mammal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Single/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Single/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Single/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Single/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Single/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Inheritance/Single/SmartPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polymorphism/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Polymorphism/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polymorphism/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Polymorphism/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polymorphism/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Polymorphism/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Polymorphism/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polymorphism/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OopConcepts/Polymorphism/MethodOverloading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +55,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -98,13 +73,13 @@
       <recent name="Abstraction.UsingInterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleException">
-    <configuration name="Arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
+  <component name="RunManager" selected="Application.FileInputAndOutputStream">
+    <configuration name="Directory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FIlesAndIO.Directory" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.*" />
+          <option name="PATTERN" value="FIlesAndIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CallByValueAndReference.Main" />
+    <configuration name="FIlesAndIO.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FIlesAndIO.Main" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CallByValueAndReference.*" />
+          <option name="PATTERN" value="FIlesAndIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.MultipleException" />
+    <configuration name="FileInputAndOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FIlesAndIO.IOStreams.FileInputAndOutputStream" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExceptionHandling.*" />
+          <option name="PATTERN" value="FIlesAndIO.IOStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularExpressions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularExpressions.Main" />
+    <configuration name="InputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FIlesAndIO.IOStreams.InputStreamExample" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegularExpressions.*" />
+          <option name="PATTERN" value="FIlesAndIO.IOStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TernaryOperator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TernaryOperator.Main" />
+    <configuration name="RecursivelyListDirectoryAndFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FIlesAndIO.RecursivelyListDirectoryAndFile" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TernaryOperator.*" />
+          <option name="PATTERN" value="FIlesAndIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultipleException" />
-        <item itemvalue="Application.RegularExpressions.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Arrays.Main" />
-        <item itemvalue="Application.TernaryOperator.Main" />
+        <item itemvalue="Application.FileInputAndOutputStream" />
+        <item itemvalue="Application.InputStreamExample" />
+        <item itemvalue="Application.RecursivelyListDirectoryAndFile" />
+        <item itemvalue="Application.Directory" />
+        <item itemvalue="Application.FIlesAndIO.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673349194906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Work done on 9/1/23">
+      <created>1673500218949</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673500218949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
