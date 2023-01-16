@@ -1,11 +1,9 @@
 package LambdaExpression;
 
 
-interface Drawable{
-    void draw();
-}
 
-public class WithOrWithout {
+
+public class WithOrWithoutLambda {
 
 
     public static void main(String[] args) {
