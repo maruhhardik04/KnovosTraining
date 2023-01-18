@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+import java.util.logging.XMLFormatter;
 
 class EmployeeManagement {
 
@@ -23,6 +24,7 @@ class EmployeeManagement {
             fileHandler = new FileHandler("employee_management.log");
             LOGGER.addHandler(fileHandler);
             SimpleFormatter formatter = new SimpleFormatter();
+//            XMLFormatter xmlFormatter=new XMLFormatter();
             fileHandler.setFormatter(formatter);
         } catch (IOException e) {
             LOGGER.warning("Failed to create log file.");
