@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 13/1/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/MapExampe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdaExpression/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdaExpression/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LambdaExpression/WithOrWithoutReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Multithreading/UsingRunnableInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Multithreading/UsingThreadClass.java" afterDir="false" />
+    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 15/1/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/DqueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/ListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/PriorityQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/QueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/StackExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/IOStreams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/IOStreams/ObjectInputAndOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/ContainDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/CountFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/InvalidParenthese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/Kfibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/MirrorInverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/StringToByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/ValueComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LambdaExpression/WithOrWithout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LambdaExpression/WithOrWithoutLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionsExample/MapExampe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CollectionsExample/MapExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +74,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Programs" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -76,13 +88,13 @@
       <recent name="Abstraction.UsingInterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MapExampe">
-    <configuration name="JDBC.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JDBC.Main" />
+  <component name="RunManager" selected="Application.Kfibonacci">
+    <configuration name="ContainDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.ContainDigit" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JDBC.*" />
+          <option name="PATTERN" value="Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpression.Main" />
+    <configuration name="CountFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.CountFrequency" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdaExpression.*" />
+          <option name="PATTERN" value="Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapExampe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsExample.MapExampe" />
+    <configuration name="EmployeeManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.EmployeeManagement" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionsExample.*" />
+          <option name="PATTERN" value="Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingThreadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multithreading.UsingThreadClass" />
+    <configuration name="Kfibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.Kfibonacci" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Multithreading.*" />
+          <option name="PATTERN" value="Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithOrWithoutReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpression.WithOrWithoutReturn" />
+    <configuration name="StringToByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.StringToByte" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LambdaExpression.*" />
+          <option name="PATTERN" value="Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapExampe" />
-        <item itemvalue="Application.UsingThreadClass" />
-        <item itemvalue="Application.JDBC.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WithOrWithoutReturn" />
+        <item itemvalue="Application.Kfibonacci" />
+        <item itemvalue="Application.EmployeeManagement" />
+        <item itemvalue="Application.CountFrequency" />
+        <item itemvalue="Application.StringToByte" />
+        <item itemvalue="Application.ContainDigit" />
       </list>
     </recent_temporary>
   </component>
@@ -196,13 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673597127606</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Work done on 15/1/23">
+      <created>1673862621297</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673862621297</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work done on 9/1/23" />
     <MESSAGE value="Work done on 13/1/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work done on 13/1/23" />
+    <MESSAGE value="Work done on 15/1/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work done on 15/1/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

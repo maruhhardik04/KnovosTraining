@@ -1,10 +1,9 @@
 package CollectionsExample;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.LinkedHashMap;
+import java.util.*;
 
-public class MapExampe {
+public class MapExample {
+
 
     public static void main(String[] args) {
 
@@ -31,8 +30,17 @@ public class MapExampe {
             }
         }
 
+
+
         System.out.println(frequencyOfCharacters);
         map.forEach((k,v)-> System.out.println(k +":"+ v));
+
+
+        System.out.println("\nTreeMap\n");
+        TreeMap<Character, Integer> hashMap = new TreeMap<>(map);
+        hashMap.putAll(map);
+        hashMap.forEach((k,v)-> System.out.println(k +":"+ v));
+
 
         String[] wordsArray=s.split("[^\\w']+");
         Hashtable<String,Integer> hashtable = new Hashtable<>();
@@ -49,7 +57,10 @@ public class MapExampe {
 
         }
 
+        System.out.println("\nHashTable\n");
         hashtable.forEach((k,v)-> System.out.println(k +":"+ v));
+
+
 
 
 
