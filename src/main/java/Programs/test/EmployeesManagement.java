@@ -25,6 +25,7 @@ public class EmployeesManagement {
         }
     }
 
+
     public static void addEmployee(Employee employee) {
         List<Employee> employees = getAllEmployees();
         employees.add(employee);
