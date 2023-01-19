@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 18/1/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/test/EmployeesManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FIlesAndIO/IOStreams/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FIlesAndIO/IOStreams/Employee.java" afterDir="false" />
+    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 19/1/23">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/test/EmployeeManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <recent name="Abstraction.UsingInterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeesManagement">
+  <component name="RunManager" selected="Application.EmployeeManagement">
     <configuration name="CountFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Programs.CountFrequency" />
       <module name="KnovosTraining" />
@@ -140,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeManagement" />
         <item itemvalue="Application.EmployeesManagement" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Kfibonacci" />
-        <item itemvalue="Application.EmployeeManagement" />
         <item itemvalue="Application.CountFrequency" />
       </list>
     </recent_temporary>
@@ -220,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674040044374</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Work done on 19/1/23">
+      <created>1674112004837</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674112004837</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Work done on 19/1/23">
+      <created>1674112031572</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674112031572</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,7 +240,8 @@
     <MESSAGE value="Work done on 13/1/23" />
     <MESSAGE value="Work done on 15/1/23" />
     <MESSAGE value="Work done on 18/1/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work done on 18/1/23" />
+    <MESSAGE value="Work done on 19/1/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work done on 19/1/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
