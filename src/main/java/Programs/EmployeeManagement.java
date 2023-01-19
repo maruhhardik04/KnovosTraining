@@ -4,12 +4,11 @@ import FIlesAndIO.IOStreams.Employee;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
-import java.util.logging.XMLFormatter;
 
 class EmployeeManagement {
 
@@ -17,11 +16,10 @@ class EmployeeManagement {
 
     private static final String FILE_NAME = "employees.txt";
     private static final Logger LOGGER = Logger.getLogger(EmployeeManagement.class.getName());
-    private static FileHandler fileHandler;
 
     static {
         try {
-            fileHandler = new FileHandler("employee_management.log");
+            FileHandler fileHandler = new FileHandler("employee_management.log");
             LOGGER.addHandler(fileHandler);
             SimpleFormatter formatter = new SimpleFormatter();
 //            XMLFormatter xmlFormatter=new XMLFormatter();
