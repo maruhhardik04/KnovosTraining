@@ -37,9 +37,9 @@ public class Palindrome {
 
     public static int closetPalindrom(int number,String side){
 
-        number = (side=="left")? number-1 : number+1;
+        number = (side.equals("left"))? number-1 : number+1;
 
-        if(checkPalindrom(String.valueOf(number))){
+        if(checkPalindrom(number)){
             return number;
         }
         return closetPalindrom(number,side) ;
@@ -47,9 +47,9 @@ public class Palindrome {
     }
 
 
-    public static boolean checkPalindrom(String number){
+    public static boolean checkPalindrom(int input){
+        String number = String.valueOf(input);
         int n=number.length();
-
 
         for(int i=0;i<n/2;i++){
             if(number.charAt(i) != number.charAt(n-1-i)){

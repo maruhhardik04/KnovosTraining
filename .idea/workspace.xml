@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 19/1/23">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Programs/test/EmployeeManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/InvalidParenthese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/InvalidParenthese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f90d3496-da43-4212-b670-550770c8ad9b" />
+        <option name="url" value="https://github.com/maruhhardik04/KnovosTraining.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,23 +81,11 @@
       <recent name="com.knovos.ClassAndObject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Programs.test" />
       <recent name="Abstraction.UsingInterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeManagement">
-    <configuration name="CountFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.CountFrequency" />
-      <module name="KnovosTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InvalidParenthese">
     <configuration name="EmployeeManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Programs.EmployeeManagement" />
       <module name="KnovosTraining" />
@@ -110,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kfibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.Kfibonacci" />
+    <configuration name="InvalidParenthese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.InvalidParenthese" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
@@ -136,13 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.Palindrome" />
+      <module name="KnovosTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InvalidParenthese" />
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.EmployeeManagement" />
         <item itemvalue="Application.EmployeesManagement" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Kfibonacci" />
-        <item itemvalue="Application.CountFrequency" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674112031572</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Work done on 19/1/23">
+      <created>1674112231012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674112231012</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
