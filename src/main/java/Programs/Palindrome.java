@@ -27,7 +27,6 @@ public class Palindrome {
         }
         else
         {
-
             System.out.println("Output : "+closetRightPalindrom);
             System.out.println("Distance : "+closetRightPalindromDistance);
         }
@@ -59,4 +58,5 @@ public class Palindrome {
         return true;
 
     }
+
 }
