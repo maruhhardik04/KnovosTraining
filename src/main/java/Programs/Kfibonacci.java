@@ -7,6 +7,8 @@ public class Kfibonacci {
         int N = 6;
         int[] array = new int[N];
 
+
+
         for (int i = 0; i < K; i++) {
             array[i] = 1;
         }
@@ -14,7 +16,7 @@ public class Kfibonacci {
         int sum = K;
         array[K] = sum;
 
-        for (int i = K +1; i < N; i++) {
+        for (int i = K + 1; i < N; i++) {
             array[i] = sum - array[i - K - 1] + array[i - 1];
             sum = array[i];
         }
