@@ -1,3 +1,13 @@
+/**
+ *
+ * First, initialize the first ‘K’ elements to ‘1’.
+ * Create a variable named ‘sum’ which will be initialized with ‘K’.
+ * Set the value of (K+1) th element to sum.
+ * Set the next values as Array[i] = sum – Array[i-k-1] + Array[i-1] then update sum = Array[i].
+ * In the end, display the Nth term of the array
+ *
+ * @author Harik Maru
+ * */
 package Programs;
 
 public class Kfibonacci {

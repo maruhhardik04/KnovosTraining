@@ -1,3 +1,9 @@
+/**
+ * Checking whether the given array is Mirror Inverse or not if it's find the 3rd smallest and 3rd
+ * largest element of Inverse array
+ *
+ * @author Hardik Maru
+ */
 package Programs;
 import java.util.Arrays;
 public class MirrorInverse {
@@ -15,10 +21,16 @@ public class MirrorInverse {
 
     }
 
+    /**
+     * Check if the given array is a mirror-inverse of itself.
+     *
+     * @param number array of integers
+     * @return true if the array is a mirror-inverse, false otherwise
+     */
     public static boolean isMirriorInverse(int[] number)
     {
         for (int i = 0; i < number.length; i++) {
-            if (number[number[i]]!=i) {
+            if (number[number[i]] != i) {
                 return false;
             }
         }

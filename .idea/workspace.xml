@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 19/1/23">
+    <list default="true" id="260061b6-7053-4429-bac9-01ab4c11b4b6" name="Changes" comment="Work done on 20/1/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/Armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/Armstrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/ContainDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/ContainDigit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/CountFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/CountFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/EmployeeManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Programs/InvalidParenthese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/InvalidParenthese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/Kfibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/Kfibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/MirrorInverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/MirrorInverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Programs/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Programs/StringToByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Programs/StringToByte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +92,7 @@
       <recent name="Abstraction.UsingInterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvalidParenthese">
+  <component name="RunManager" selected="Application.Kfibonacci">
     <configuration name="EmployeeManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Programs.EmployeeManagement" />
       <module name="KnovosTraining" />
@@ -125,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Logger.Main" />
+    <configuration name="Kfibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.Kfibonacci" />
       <module name="KnovosTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Logger.*" />
+          <option name="PATTERN" value="Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kfibonacci" />
         <item itemvalue="Application.InvalidParenthese" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.EmployeeManagement" />
         <item itemvalue="Application.EmployeesManagement" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +261,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674112231012</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Work done on 19/1/23">
+      <created>1674193928050</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674193928050</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Work done on 20/1/23">
+      <created>1674194930342</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674194930342</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Work done on 20/1/23">
+      <created>1674195457028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674195457028</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,7 +291,8 @@
     <MESSAGE value="Work done on 15/1/23" />
     <MESSAGE value="Work done on 18/1/23" />
     <MESSAGE value="Work done on 19/1/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work done on 19/1/23" />
+    <MESSAGE value="Work done on 20/1/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work done on 20/1/23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -279,5 +308,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/KnovosTraining$Kfibonacci.ic" NAME="Kfibonacci Coverage Results" MODIFIED="1674195375547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Programs.*</FILTER>
+    </SUITE>
   </component>
 </project>

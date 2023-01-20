@@ -1,3 +1,8 @@
+/**
+ *  Converting string value to byte value
+ *
+ * @author Hardik Maru
+ * */
 package Programs;
 
 public class StringToByte {
@@ -6,6 +11,10 @@ public class StringToByte {
         System.out.println(stringToByte("abc ds"));
     }
 
+    /**
+     * @param input given string
+     * @return string input to its corresponding byte representation
+     */
     public static String stringToByte(String input){
 
         if(input.isEmpty()){

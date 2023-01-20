@@ -1,7 +1,16 @@
+/**
+ * The EmployeeManagement class is used to manage Employee records.
+ * The class allows for creating, reading, updating and deleting Employee records.
+ * The class also uses logging to log any errors that occur.
+ *
+ * @author Hardik Maru
+ */
+
+
+
 package Programs;
 
 import FIlesAndIO.IOStreams.Employee;
-import Programs.test.EmployeesManagement;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -13,7 +22,13 @@ import java.util.logging.SimpleFormatter;
 
 class EmployeeManagement {
 
+    /**
+     * The name of the file where the Employee records are stored
+     */
     private static final String FILE_NAME = "employees.ser";
+    /**
+     * The Logger object used to log errors
+     */
     private static final Logger LOGGER = Logger.getLogger(EmployeeManagement.class.getName());
 
     static {
@@ -27,21 +42,37 @@ class EmployeeManagement {
         }
     }
 
-
-    public static void addEmployee(Employee employee) {
-        List<Employee> employees = getAllEmployees();
+    /**
+     * Creates a new Employee record
+     *
+     * @param employee the Employee object to be created
+     *
+     */
+    public static void create(Employee employee) {
+        List<Employee> employees = selectAll();
         employees.add(employee);
         writeEmployeesToFile(employees);
     }
 
-    public static void deleteEmployee(int id) {
-        List<Employee> employees = getAllEmployees();
+    /**
+     * Deletes an Employee record
+     *
+     * @param id the id of the Employee to be deleted
+     */
+    public static void delete(int id) {
+        List<Employee> employees = selectAll();
         employees.removeIf(employee -> employee.getId() == id);
         writeEmployeesToFile(employees);
     }
 
-    public static void updateEmployee(int id, Employee updatedEmployee) {
-        List<Employee> employees = getAllEmployees();
+    /**
+     * Updates an Employee record
+     *
+     * @param id the id of the Employee to be updated
+     * @param updatedEmployee the updated Employee object
+     */
+    public static void update(int id, Employee updatedEmployee) {
+        List<Employee> employees = selectAll();
         for (int i = 0; i < employees.size(); i++) {
             Employee employee = employees.get(i);
             if (employee.getId() == id) {
@@ -52,7 +83,12 @@ class EmployeeManagement {
         writeEmployeesToFile(employees);
     }
 
-    public static List<Employee> getAllEmployees() {
+    /**
+     * Selects all Employee records
+     *
+     * @return a List of Employee objects
+     */
+    public static List<Employee> selectAll() {
         List<Employee> employees = new ArrayList<>();
         try (ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(FILE_NAME))) {
             while (true) {
@@ -69,6 +105,11 @@ class EmployeeManagement {
         return employees;
     }
 
+    /**
+     * Writes a List of Employee objects to the file
+     *
+     * @param employees the List of Employee objects to be written
+     */
     private static void writeEmployeesToFile(List<Employee> employees) {
         try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(FILE_NAME))) {
             for (Employee employee : employees) {
@@ -79,7 +120,12 @@ class EmployeeManagement {
         }
     }
 
-    public static  void printAllEmployee(List<Employee> employees){
+    /**
+     * Prints a List of Employee objects
+     *
+     * @param employees the List of Employee objects to be printed
+     */
+    public static  void print(List<Employee> employees){
         employees.forEach(System.out::println);
     }
 
@@ -87,13 +133,13 @@ class EmployeeManagement {
 
     public static void main(String[] args) {
 
-        addEmployee(new Employee(1,"Rushi",10000));
-        addEmployee(new Employee(2,"Manas",10000));
-        printAllEmployee(getAllEmployees());
-        updateEmployee(1,new Employee(1,"Rushi",10250));
-        printAllEmployee(getAllEmployees());
-        deleteEmployee(1);
-        printAllEmployee(getAllEmployees());
+        create(new Employee(1,"Rushi",10000));
+        create(new Employee(2,"Manas",10000));
+        print(selectAll());
+        update(1,new Employee(1,"Rushi",10250));
+        print(selectAll());
+        delete(1);
+        print(selectAll());
 
 
     }

@@ -1,3 +1,10 @@
+/**
+ * The CountFrequency class counts the frequency of characters and words in a given string.
+ * The class also prints out the top 9 most frequent characters and words, and the bottom 9 least frequent characters and words
+ *
+ * @author Hardik Maru
+ */
+
 package Programs;
 
 import java.util.*;
@@ -32,7 +39,6 @@ public class CountFrequency {
 
         String[] wordsArray=s.split("[^\\w']+");
         Hashtable<String,Integer> hashtable = new Hashtable<>();
-
 
         for (String value : wordsArray) {
 

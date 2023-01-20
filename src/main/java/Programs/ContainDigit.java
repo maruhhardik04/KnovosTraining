@@ -1,3 +1,11 @@
+/**
+ * The ContainDigit class determines whether a given string contains a digit or not.
+ * If the string contains a digit, the method prints "Not possible" and returns.
+ * If the string does not contain a digit, the method prints the last character of the string.
+ *
+ * @author Hardik Maru
+ */
+
 package Programs;
 
 import java.util.regex.Matcher;
@@ -8,17 +16,24 @@ public class ContainDigit {
         iscontainDigit("adkfjkfjalsd");
     }
 
-    public static void iscontainDigit(String input){
+
+    /**
+     * The iscontainDigit method checks if a given string contains a digit or not.
+     *
+     * @param input the string to check
+     * @return "Not possible" if the input contains a digit, last character of the string otherwise
+     */
+    public static String iscontainDigit(String input){
 
 
         Pattern pattern=Pattern.compile("\\d");
         Matcher matcher=pattern.matcher(input);
 
         if(matcher.find()){
-            System.out.println("Not possible");
-            return;
+
+            return "Not possible";
         }
 
-        System.out.println(input.charAt(input.length()-1));
+        return String.valueOf(input.charAt(input.length()-1));
     }
 }

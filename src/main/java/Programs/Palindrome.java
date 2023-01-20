@@ -1,3 +1,11 @@
+/**
+ * Given a string n representing an integer, return the closest integer (not including itself),
+ * which is a palindrome.
+ * If there is a tie, return the average of both number and at what distance the number is if
+ * there is no tie
+ *
+ * @author Hardik Maru
+ */
 package Programs;
 
 public class Palindrome {
@@ -34,6 +42,12 @@ public class Palindrome {
 
     }
 
+    /**
+     * Find the closest palindrome number to the given number
+     * @param number the given number
+     * @param side "left" or "right" indicating whether to check the closest number on the left or right side of the given number
+     * @return the closest palindrome number
+     */
     public static int closetPalindrom(int number,String side){
 
         number = (side.equals("left"))? number-1 : number+1;
@@ -45,7 +59,11 @@ public class Palindrome {
 
     }
 
-
+    /**
+     * Check if the given number is a palindrome
+     * @param input the given number
+     * @return true if the number is a palindrome, false otherwise
+     */
     public static boolean checkPalindrom(int input){
         String number = String.valueOf(input);
         int n=number.length();

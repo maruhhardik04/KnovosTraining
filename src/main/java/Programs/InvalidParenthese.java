@@ -1,3 +1,8 @@
+/**
+ * Removing  invalid opening ( or closing ) parenthese.
+ *
+ * @author Hardik Maru
+ */
 package Programs;
 import java.util.*;
 
@@ -8,6 +13,12 @@ public class InvalidParenthese {
         System.out.print(invalidParenthese(")123(abc))(456"));
     }
 
+    /**
+     * Removes invalid Parentheses from the input string
+     *
+     * @param input the input string containing the Parentheses
+     * @return the input string with invalid Parentheses removed
+     */
     public static String removeInvalidParenthese(String input){
 
         if(input.isBlank()){
@@ -60,7 +71,12 @@ public class InvalidParenthese {
     }
 
 
-
+    /**
+     * Removes invalid Parentheses from the input string
+     *
+     * @param input the input string containing the Parentheses
+     * @return the input string with invalid Parentheses removed
+     */
     public static String invalidParenthese(String input)
     {
         if (input.isBlank()) return input;
